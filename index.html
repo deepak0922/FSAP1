@@ -4,19 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>FSAP1</title>
+    <style>
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+        .navbar{
+            width: 100%;
+            background-color: white;
+            font-size: 15px;
+            font-family: sans-serif;
+            border-bottom: 0.1px  grey;
+        }
+        .navbar ul li {
+            display: inline;
+            padding: 6px;
+            float:right;
+            margin-right: 20px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .text{
+            font-family: sans-serif;
+            float: left;
+            color: #2A3869;
+            padding-left:10%;
+            padding-top:5%;
+            padding-right:4%;
+        }
+        .text h3{
+            font-weight: 400;
+            font-size: 30px;
+        }
+        .text h1{
+            font-size: 50px;
+        }
+        .image{
+            float: right;
+            padding-right:10%;
+            padding-top: 4%;
+            width: 120%;
+        }
+        .content{
+            display: flex;
+        }
+        </style>
 </head>
 <body>
     <div class="navbar">
-       <img src="logo.png" alt="logo">
+       
        <ul>
-       <li>ABOUT</li>
-       <li>SERVICES</li>
-       <li>FEATURES</li>
-       <li>SCREENSHOT</li>
-       <li>TESTIMONIALS</li>
-       <li>PRICING</li>
-        <ul> 
+       <a href="#"><img src="logo.png" alt="logo"></a>
+       <li><a href="#" class="fa fa-google"></a></li>
+       <li><a href="#" class="fa fa-linkedin"></a></li>
+       <li><a href="#" class="fa fa-twitter"></a></li>
+       <li><a href="#" class="fa fa-facebook"></a></li>
+       <a href="#"><li>PRICING</li></a>
+       <a href="#"><li>TESTIMONIALS</li></a>
+       <a href="#"><li>SCREENSHOT</li></a>
+       <a href="#"><li>FEATURES</li></a>
+       <a href="#"><li>SERVICES</li></a>
+       <a href="#"><li>ABOUT</li></a>       
+        <ul>
+            <br> 
     </div>
+    <div class="content">
+        <div class="text">
+            <h3>Download for Android & iOS</h3>
+            <h1>Download Now</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat incidunt ab facilis impedit ut amet repellendus tempora ducimus consequuntur eum. Eaque, minima. Minima soluta adipisci asperiores tempore unde ipsa eum alias error facere libero dolores temporibus minus rem fuga, accusamus sunt quas necessitatibus corporis optio ratione odit quasi eos impedit!</p>
+            <img src="appicon.png" alt="">
+        </div>
+        <div class="image">
+            <img src="imageright.png" alt="" width="120%">
+        </div>
+        <div class="icon-bar">
+            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+          </div>
+
 </body>
 </html>
